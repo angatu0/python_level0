@@ -1,13 +1,9 @@
-# escreva o seu programa
+# This function is for entering multiple numbers and entering "0" to finish.
 def main():
-    n = int(input('Digite o valor: '))
-    soma = 0
-
+    n = int(input('Entering a number: '))
+    sum0 = 0
     while n != 0:
-        soma = soma + n
-        n = int(input('Digite o valor: '))
-
-    print('A soma é {}'.format(soma))
-
-
-main()
+        sum0 = sum0 + n
+        n = int(input('Entering a number: '))
+    # Once completed, print the sum result.
+    print('The sum result is {}'.format(sum0))

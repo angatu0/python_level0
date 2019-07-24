@@ -1,5 +1,6 @@
-n = int(input('Digite um número inteiro: '))
+# The goal is check if define number is even or odd.
+n = int(input('Entering a whole number: '))
 if (n % 2) == 0:
-    print('par')
+    print('Even')
 else:
-    print('ímpar')
+    print('Odd')

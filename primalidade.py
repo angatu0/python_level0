@@ -1,9 +1,9 @@
-n = int(input('Digite um número inteiro: '))
-contador = 0
+n = int(input('Entering the whole number: '))
+counter = 0
 for x in range(1, n+1):
     if n % x == 0:
-        contador += 1
-if contador == 2:
-    print('primo')
+        counter += 1
+if counter == 2:
+    print('prime number')
 else:
-    print('não primo')
+    print('Not prime number')

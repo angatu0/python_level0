@@ -1,4 +1,4 @@
-lado = int(input('Digite o valor correspondente ao lado de um quadrado:'))
-perimetro = lado * 4
-area = lado ** 2
-print('perímetro: {} - área: {}'.format(perimetro, area))
+Size = float(input('Entering the value of one size of the square in meters:'))
+perimeter = Size * 4
+area = Size ** 2
+print('Perimeter: {:.2f} meters \nArea: {:.2f} meters'.format(perimeter, area))

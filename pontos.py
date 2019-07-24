@@ -1,10 +1,11 @@
+# The goal is defined coordinates and calc the distance.
 import math
-x1 = int(input('Digite o valor de "x": '))
-y1 = int(input('Digite o valor de "y": '))
-x2 = int(input('Digite o valor de "x2": '))
-y2 = int(input('Digite o valor de "y2": '))
+x1 = int(input('Entering the "x" value: '))
+y1 = int(input('Entering the "y" value: '))
+x2 = int(input('Entering the "x2" value: '))
+y2 = int(input('Entering the "y2" value: '))
 D = math.sqrt(((x2-x1)**2)+((y2-y1)**2))
 if D >= 10:
-    print('longe')
+    print('Far')
 else:
-    print('perto')
+    print('Near')
